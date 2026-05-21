@@ -34,7 +34,7 @@ def load_data(file):
     
     return df
 
-FILE_NAME = "Ventas_Tienda.xlsx"
+DEFAULT_PATH = "Ventas_Tienda.xlsx"
 
 try:
     df_f = load_data(DEFAULT_PATH)
