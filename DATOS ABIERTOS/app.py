@@ -34,7 +34,7 @@ def load_data(file):
     
     return df
 
-DEFAULT_PATH = r"C:\Users\matut\OneDrive\Documentos\DATOS ABIERTOS\Ventas_Tienda.xlsx"
+FILE_NAME = "Ventas_Tienda.xlsx"
 
 try:
     df_f = load_data(DEFAULT_PATH)
